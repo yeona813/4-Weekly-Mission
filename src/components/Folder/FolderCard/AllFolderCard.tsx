@@ -1,7 +1,7 @@
 import React from "react";
-import { useAsync } from "../../../hooks/useAsync.tsx";
-import { axiosInstance } from "../../../utils/axiosInstance.tsx";
-import ReadFolderCard from "../ReadFolderCard.tsx";
+import { useAsync } from "../../../hooks/useAsync";
+import { axiosInstance } from "../../../utils/axiosInstance";
+import ReadFolderCard from "../ReadFolderCard";
 
 interface Data {
   data: any;

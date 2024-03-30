@@ -1,4 +1,4 @@
-import { mapLinks } from "./mapLinks.tsx";
+import { mapLinks } from "./mapLinks";
 
 interface FolderData {
   name: string;

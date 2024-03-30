@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./FooterStyled.tsx";
+import * as S from "./FooterStyled";
 
 const SNS = [
   {

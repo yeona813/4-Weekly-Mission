@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../components/Folder/FolderList/FolderListStyled.tsx";
+import * as S from "../components/Folder/FolderList/FolderListStyled";
 interface Item {
   id: number;
   name: string;

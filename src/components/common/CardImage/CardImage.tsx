@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./CardImageStyled.tsx";
+import * as S from "./CardImageStyled";
 
 const DEFAULT_IMAGE = "images/card-default.png";
 const STAR_IMAGE = "images/star.svg";

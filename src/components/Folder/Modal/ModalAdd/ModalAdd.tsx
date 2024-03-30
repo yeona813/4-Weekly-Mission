@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import * as S from "../ModalStyled.tsx";
-import * as STYLE from "./ModalAddStyled.tsx";
+import * as S from "../ModalStyled";
+import * as STYLE from "./ModalAddStyled";
 
 interface Data {
   id: number;

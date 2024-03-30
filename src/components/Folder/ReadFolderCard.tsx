@@ -1,8 +1,8 @@
 import React from "react";
 import { format } from "date-fns";
-import getElapsedTime from "../../utils/getElapsedTime.tsx";
-import CardList from "../common/CardList/CardList.tsx";
-import ReadCard from "../Shared/ReadCard.tsx";
+import getElapsedTime from "../../utils/getElapsedTime";
+import CardList from "../common/CardList/CardList";
+import ReadCard from "../Shared/ReadCard";
 
 interface Link {
   id: number;

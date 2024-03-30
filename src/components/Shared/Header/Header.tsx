@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./HeaderStyled.tsx";
+import * as S from "./HeaderStyled";
 
 interface HeaderProps {
   profileImage: string;

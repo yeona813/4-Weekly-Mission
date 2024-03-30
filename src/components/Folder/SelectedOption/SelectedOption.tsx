@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import ModalEdit from "../Modal/ModalEdit/ModalEdit.tsx";
-import ModalDelete from "../Modal/ModalDelete/ModalDelete.tsx";
-import ModalShare from "../Modal/ModalShare/ModalShare.tsx";
-import * as S from "./SelectedOptionStyled.tsx";
+import ModalEdit from "../Modal/ModalEdit/ModalEdit";
+import ModalDelete from "../Modal/ModalDelete/ModalDelete";
+import ModalShare from "../Modal/ModalShare/ModalShare";
+import * as S from "./SelectedOptionStyled";
 
 interface SelectedOptionProps {
   selectedFolder: string;

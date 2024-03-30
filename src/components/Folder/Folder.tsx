@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { useGetFolderById } from "../../hooks/useGetFolder.tsx";
-import SearchBar from "../common/SearchBar/SearchBar.tsx";
-import FolderList from "./FolderList/FolderList.tsx";
-import AllFolderCard from "./FolderCard/AllFolderCard.tsx";
-import FolderCard from "./FolderCard/FolderCard.tsx";
-import useFolderLinks from "../../hooks/useFolderLinks.tsx";
-import renderButton from "../../utils/renderButtons.tsx";
-import SelectedOption from "./SelectedOption/SelectedOption.tsx";
-import * as S from "./FolderStyled.tsx";
+import { useGetFolderById } from "../../hooks/useGetFolder";
+import SearchBar from "../common/SearchBar/SearchBar";
+import FolderList from "./FolderList/FolderList";
+import AllFolderCard from "./FolderCard/AllFolderCard";
+import FolderCard from "./FolderCard/FolderCard";
+import useFolderLinks from "../../hooks/useFolderLinks";
+import renderButton from "../../utils/renderButtons";
+import SelectedOption from "./SelectedOption/SelectedOption";
+import * as S from "./FolderStyled";
 
 interface Data {
   data: any;

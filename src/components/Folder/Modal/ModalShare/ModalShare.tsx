@@ -1,6 +1,6 @@
 import React, { MouseEvent } from "react";
-import * as S from "../ModalStyled.tsx";
-import * as STYLE from "./ModalShareStyled.tsx";
+import * as S from "../ModalStyled";
+import * as STYLE from "./ModalShareStyled";
 
 interface ModalShareProps {
   setIsShareModalOpen: React.Dispatch<React.SetStateAction<boolean>>;

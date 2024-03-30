@@ -1,9 +1,9 @@
 import "../colors.css";
 import "../global.css";
 import React from "react";
-import { Layout } from "../components/common/Layout/Layout.tsx";
-import { useGetUser } from "../hooks/useGetUser.tsx";
-import Shared from "../components/Shared/Shared.tsx";
+import { Layout } from "../components/common/Layout/Layout";
+import { useGetUser } from "../hooks/useGetUser";
+import Shared from "../components/Shared/Shared";
 
 interface Profile {
   email: string;

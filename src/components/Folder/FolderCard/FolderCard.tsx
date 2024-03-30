@@ -1,5 +1,5 @@
 import React from "react";
-import ReadFolderCard from "../ReadFolderCard.tsx";
+import ReadFolderCard from "../ReadFolderCard";
 
 interface Link {
   id: number;

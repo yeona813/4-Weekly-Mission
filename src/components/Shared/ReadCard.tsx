@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "../common/Card/Card.tsx";
-import CardImage from "../common/CardImage/CardImage.tsx";
-import CardContent from "../common/CardContent/CardContent.tsx";
+import Card from "../common/Card/Card";
+import CardImage from "../common/CardImage/CardImage";
+import CardContent from "../common/CardContent/CardContent";
 
 interface ReadCardProps {
   url: string;

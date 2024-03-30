@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, MouseEvent } from "react";
-import ModalDelete from "../../Folder/Modal/ModalDelete/ModalDelete.tsx";
-import ModalEdit from "../../Folder/Modal/ModalEdit/ModalEdit.tsx";
-import * as S from "./CardContentStyled.tsx";
+import ModalDelete from "../../Folder/Modal/ModalDelete/ModalDelete";
+import ModalEdit from "../../Folder/Modal/ModalEdit/ModalEdit";
+import * as S from "./CardContentStyled";
 
 interface CardContentProps {
   elapsedTime: string;

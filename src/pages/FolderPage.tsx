@@ -1,10 +1,10 @@
 import "../colors.css";
 import "../global.css";
 import React from "react";
-import { Layout } from "../components/common/Layout/Layout.tsx";
-import { useGetUserById } from "../hooks/useGetUser.tsx";
-import LinkBar from "../components/Folder/LinkBar/LinkBar.tsx";
-import Folder from "../components/Folder/Folder.tsx";
+import { Layout } from "../components/common/Layout/Layout";
+import { useGetUserById } from "../hooks/useGetUser";
+import LinkBar from "../components/Folder/LinkBar/LinkBar";
+import Folder from "../components/Folder/Folder";
 
 interface Profile {
   email: string;

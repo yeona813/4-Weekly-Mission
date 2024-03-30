@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import getElapsedTime from "./getElapsedTime.tsx";
+import getElapsedTime from "./getElapsedTime";
 
 interface LinkData {
   id: number;

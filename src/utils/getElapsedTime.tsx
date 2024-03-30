@@ -1,4 +1,4 @@
-import { TIME_IN_MILLISECONDS } from "./constant.tsx";
+import { TIME_IN_MILLISECONDS } from "./constant";
 
 function getElapsedTime(createdAt) {
   const now = new Date();

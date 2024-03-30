@@ -1,6 +1,6 @@
 import React, { ReactNode, useState } from "react";
-import ModalEdit from "../Modal/ModalEdit/ModalEdit.tsx";
-import * as S from "./FolderListStyled.tsx";
+import ModalEdit from "../Modal/ModalEdit/ModalEdit";
+import * as S from "./FolderListStyled";
 
 interface FolderListProps {
   activeButton: string;

@@ -1,6 +1,6 @@
 import React from "react";
-import { Profile } from "../Profile/Profile.tsx";
-import * as S from "./NavigationStyled.tsx";
+import { Profile } from "../Profile/Profile";
+import * as S from "./NavigationStyled";
 
 interface NavigationBarProps {
   profile: {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { axiosInstance } from "../utils/axiosInstance.tsx";
+import { axiosInstance } from "../utils/axiosInstance";
 
 interface DataItem {
   id: number;

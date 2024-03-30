@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useGetFolderById } from "../../../hooks/useGetFolder.tsx";
-import ModalAdd from "../Modal/ModalAdd/ModalAdd.tsx";
-import * as S from "./LinkBarStyled.tsx";
+import { useGetFolderById } from "../../../hooks/useGetFolder";
+import ModalAdd from "../Modal/ModalAdd/ModalAdd";
+import * as S from "./LinkBarStyled";
 
 interface Data {
   data: any;

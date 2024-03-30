@@ -1,10 +1,10 @@
 import React from "react";
-import { useGetFolder } from "../../hooks/useGetFolder.tsx";
-import Header from "./Header/Header.tsx";
-import ReadCard from "./ReadCard.tsx";
-import CardList from "../common/CardList/CardList.tsx";
-import SearchBar from "../common/SearchBar/SearchBar.tsx";
-import * as S from "./SharedStyled.tsx";
+import { useGetFolder } from "../../hooks/useGetFolder";
+import Header from "./Header/Header";
+import ReadCard from "./ReadCard";
+import CardList from "../common/CardList/CardList";
+import SearchBar from "../common/SearchBar/SearchBar";
+import * as S from "./SharedStyled";
 
 interface SharedProps {
   profileImage: string;

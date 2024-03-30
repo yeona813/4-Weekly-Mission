@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useEffectOnce } from "./useEffectOnce.tsx";
+import { useEffectOnce } from "./useEffectOnce";
 
 interface AsyncFunction {
   (): Promise<any>;

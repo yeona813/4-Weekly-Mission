@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./ProfileStyled.tsx";
+import * as S from "./ProfileStyled";
 
 interface ProfileProps {
   profile: {

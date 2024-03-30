@@ -1,6 +1,6 @@
-import { mapFolderData } from "../utils/mapFolderData.tsx";
-import { useAsync } from "./useAsync.tsx";
-import { axiosInstance } from "../utils/axiosInstance.tsx";
+import { mapFolderData } from "../utils/mapFolderData";
+import { useAsync } from "./useAsync";
+import { axiosInstance } from "../utils/axiosInstance";
 
 export function useGetFolder() {
   const getUser = () => axiosInstance.get("sample/folder");

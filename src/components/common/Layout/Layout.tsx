@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import NavigationBar from "../NavigationBar/NavigationBar.tsx";
-import Footer from "../Footer/Footer.tsx";
+import NavigationBar from "../NavigationBar/NavigationBar";
+import Footer from "../Footer/Footer";
 
 interface LayoutProps {
   isSticky: boolean;

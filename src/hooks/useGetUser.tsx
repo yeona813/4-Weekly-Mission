@@ -1,5 +1,5 @@
-import { useAsync } from "./useAsync.tsx";
-import { axiosInstance } from "../utils/axiosInstance.tsx";
+import { useAsync } from "./useAsync";
+import { axiosInstance } from "../utils/axiosInstance";
 
 export function useGetUser() {
   const getUser = () => axiosInstance.get("sample/user");

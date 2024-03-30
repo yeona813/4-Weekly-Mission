@@ -1,6 +1,6 @@
 import React, { MouseEvent } from "react";
-import * as S from "../ModalStyled.tsx";
-import * as STYLE from "./ModalDeleteStyled.tsx";
+import * as S from "../ModalStyled";
+import * as STYLE from "./ModalDeleteStyled";
 
 interface ModalDeleteProps {
   setIsDeleteModalOpen: React.Dispatch<React.SetStateAction<boolean>>;

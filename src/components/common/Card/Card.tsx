@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import * as S from "./CardStyled.tsx";
+import * as S from "./CardStyled";
 
 interface CardProps {
   children: ReactNode;

@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "./SearchBarStyled.tsx";
+import * as S from "./SearchBarStyled";
 
 function SearchBar({ searchTerm, setSearchTerm, setShowSearchResult }) {
   const handleInputChange = (event) => {

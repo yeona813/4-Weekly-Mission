@@ -1,6 +1,6 @@
 import React, { MouseEvent } from "react";
-import * as S from "../ModalStyled.tsx";
-import * as STYLE from "./ModalEditStyled.tsx";
+import * as S from "../ModalStyled";
+import * as STYLE from "./ModalEditStyled";
 
 interface ModalEditProps {
   setIsEditModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
