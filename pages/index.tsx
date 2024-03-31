@@ -1,13 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function Homepage() {
   return (
     <div className="Homepage">
-      <Link to="/shared">
+      <Link href="/share">
         <button>SharedPage</button>
       </Link>
-      <Link to="/folder">
+      <Link href="/folder">
         <button>FolderPage</button>
       </Link>
     </div>

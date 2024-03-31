@@ -17,25 +17,24 @@ const ModalDelete = ({
     e.preventDefault();
     setIsDeleteModalOpen(false);
   };
+
   return (
-    <>
-      <S.ModalBackground>
-        <S.ModalBox>
-          <S.CloseButton onClick={handleCloseModal}>
-            <img src="images/close.svg" alt="" />
-          </S.CloseButton>
-          <S.Items>
-            <STYLE.Title>
-              <S.ItemsText>{text}</S.ItemsText>
-              <STYLE.ItemsP>폴더명</STYLE.ItemsP>
-            </STYLE.Title>
-            <STYLE.Content>
-              <STYLE.DeleteButton>{buttonText}</STYLE.DeleteButton>
-            </STYLE.Content>
-          </S.Items>
-        </S.ModalBox>
-      </S.ModalBackground>
-    </>
+    <S.ModalBackground>
+      <S.ModalBox>
+        <S.CloseButton onClick={handleCloseModal}>
+          <img src="images/close.svg" alt="" />
+        </S.CloseButton>
+        <S.Items>
+          <STYLE.Title>
+            <S.ItemsText>{text}</S.ItemsText>
+            <STYLE.ItemsP>폴더명</STYLE.ItemsP>
+          </STYLE.Title>
+          <STYLE.Content>
+            <STYLE.DeleteButton>{buttonText}</STYLE.DeleteButton>
+          </STYLE.Content>
+        </S.Items>
+      </S.ModalBox>
+    </S.ModalBackground>
   );
 };
 

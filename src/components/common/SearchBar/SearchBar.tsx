@@ -19,26 +19,24 @@ function SearchBar({ searchTerm, setSearchTerm, setShowSearchResult }) {
   };
 
   return (
-    <div>
-      <S.SearchBar>
-        <S.Input
-          type="search"
-          placeholder="링크를 검색해 보세요."
-          value={searchTerm}
-          onChange={handleInputChange}
-          onKeyDown={handleKeyDown}
-        />
-        <S.SearchIcon
-          src="./images/search.svg"
-          alt="검색창인 것을 알려주는 돋보기 아이콘"
-        />
-        <S.CloseIcon
-          src="./images/close.svg"
-          alt="닫기 아이콘"
-          onClick={handleClearSearch}
-        />
-      </S.SearchBar>
-    </div>
+    <S.SearchBar>
+      <S.Input
+        type="search"
+        placeholder="링크를 검색해 보세요."
+        value={searchTerm}
+        onChange={handleInputChange}
+        onKeyDown={handleKeyDown}
+      />
+      <S.SearchIcon
+        src="./images/search.svg"
+        alt="검색창인 것을 알려주는 돋보기 아이콘"
+      />
+      <S.CloseIcon
+        src="./images/close.svg"
+        alt="닫기 아이콘"
+        onClick={handleClearSearch}
+      />
+    </S.SearchBar>
   );
 }
 

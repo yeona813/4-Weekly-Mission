@@ -1,6 +1,7 @@
 import React from "react";
 import { Profile } from "../Profile/Profile";
 import * as S from "./NavigationStyled";
+import Link from "next/link";
 
 interface NavigationBarProps {
   profile: {
@@ -14,9 +15,9 @@ const NavigationBar = ({ profile, isSticky }: NavigationBarProps) => {
   return (
     <S.Nav $isSticky={isSticky}>
       <S.NavItems>
-        <a href="/">
+        <Link href={"/"}>
           <S.Logo src="/images/linkbrary.svg" alt="로고 이미지" />
-        </a>
+        </Link>
         {profile ? (
           <Profile profile={profile} />
         ) : (

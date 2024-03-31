@@ -70,7 +70,7 @@ export const PopoverButton = styled.button`
   line-height: normal;
   background-color: #ffffff;
 
-  & hover {
+  &:hover {
     background-color: var(--gray10);
     color: var(--primary);
   }

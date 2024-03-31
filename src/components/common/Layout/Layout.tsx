@@ -11,7 +11,7 @@ interface LayoutProps {
   children: ReactNode;
 }
 
-export const Layout = ({ isSticky, profile, children }: LayoutProps) => {
+const Layout = ({ isSticky, profile, children }: LayoutProps) => {
   return (
     <div>
       <NavigationBar isSticky={isSticky} profile={profile} />
@@ -20,3 +20,5 @@ export const Layout = ({ isSticky, profile, children }: LayoutProps) => {
     </div>
   );
 };
+
+export default Layout;

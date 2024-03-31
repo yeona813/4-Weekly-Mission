@@ -52,11 +52,7 @@ function CardContent({
   return (
     <S.CardContent>
       <span className="CardContent-elapsed-time">{elapsedTime}</span>
-      <S.Kebab
-        src="images/kebab.svg"
-        alt="더보기를 나타내는 점 3개"
-        onClick={handlePopover}
-      />
+      <S.Kebab src="/images/kebab.svg" alt="더보기" onClick={handlePopover} />
       {isClick && (
         <S.Popover ref={popoverRef}>
           <S.PopoverButton onClick={handleDeleteOpen}>삭제하기</S.PopoverButton>
