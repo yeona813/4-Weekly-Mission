@@ -18,22 +18,20 @@ const ModalEdit = ({
     setIsEditModalOpen(false);
   };
   return (
-    <>
-      <S.ModalBackground>
-        <S.ModalBox>
-          <S.CloseButton onClick={handleCloseModal}>
-            <img src="images/close.svg" alt="" />
-          </S.CloseButton>
-          <S.Items>
-            <S.ItemsText>{text}</S.ItemsText>
-            <STYLE.Content>
-              <STYLE.Input type="text" placeholder="내용 작성 중.." />
-              <STYLE.EditButton>{buttonText}</STYLE.EditButton>
-            </STYLE.Content>
-          </S.Items>
-        </S.ModalBox>
-      </S.ModalBackground>
-    </>
+    <S.ModalBackground>
+      <S.ModalBox>
+        <S.CloseButton onClick={handleCloseModal}>
+          <img src="images/close.svg" alt="" />
+        </S.CloseButton>
+        <S.Items>
+          <S.ItemsText>{text}</S.ItemsText>
+          <STYLE.Content>
+            <STYLE.Input type="text" placeholder="내용 작성 중.." />
+            <STYLE.EditButton>{buttonText}</STYLE.EditButton>
+          </STYLE.Content>
+        </S.Items>
+      </S.ModalBox>
+    </S.ModalBackground>
   );
 };
 

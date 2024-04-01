@@ -3,7 +3,6 @@ import { useGetFolder } from "../../hooks/useGetFolder";
 import Header from "./Header/Header";
 import ReadCard from "./ReadCard";
 import CardList from "../common/CardList/CardList";
-import SearchBar from "../common/SearchBar/SearchBar";
 import * as S from "./SharedStyled";
 
 interface SharedProps {
@@ -36,7 +35,6 @@ function Shared() {
         folderInfo={folderName}
       />
       <S.Items>
-        <SearchBar />
         <CardList>
           {links?.map((link) => (
             <ReadCard key={link?.id} {...link} />

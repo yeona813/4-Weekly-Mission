@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../common/Card/Card";
 import CardImage from "../common/CardImage/CardImage";
 import CardContent from "../common/CardContent/CardContent";
+import Link from "next/link";
 
 interface ReadCardProps {
   url: string;
@@ -20,7 +21,7 @@ function ReadCard({
   createdAt,
 }: ReadCardProps) {
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <Link href={url} target="_blank" rel="noopener noreferrer">
       <Card>
         <CardImage imageSource={imageSource} alt={alt} />
         <CardContent
@@ -29,7 +30,7 @@ function ReadCard({
           createdAt={createdAt}
         />
       </Card>
-    </a>
+    </Link>
   );
 }
 export default ReadCard;
